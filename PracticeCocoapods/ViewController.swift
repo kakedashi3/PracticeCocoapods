@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
     @IBAction func buttonAction(_ sender: Any) {
 //        HUD.flash(.success, delay: 1.0)
-        CDAlertView(title: "Awesome Title", message: "Well explained message!", type: .notification).show()
+        CDAlertView(title: "よく出来ました！", message: "あなたはこのプログラムを達成した一人目になります", type: .notification).show()
 
     }
     
