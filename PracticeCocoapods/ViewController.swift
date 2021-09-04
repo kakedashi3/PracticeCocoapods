@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import PKHUD
+import CDAlertView
 
 class ViewController: UIViewController {
 
@@ -14,6 +16,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func buttonAction(_ sender: Any) {
+//        HUD.flash(.success, delay: 1.0)
+        CDAlertView(title: "Awesome Title", message: "Well explained message!", type: .notification).show()
 
+    }
+    
 }
 
